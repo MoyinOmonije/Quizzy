@@ -1,0 +1,6 @@
+.answer-timer-container{
+    @apply absolute w-full border-b-[#9c9c9c] border-b border-solid left-0 top-0;
+}
+.answer-timer-container .progress{
+    @apply h-[5px] duration-[1s] w-0 ease-linear bg-[red];
+}

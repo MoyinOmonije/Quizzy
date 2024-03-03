@@ -1,0 +1,39 @@
+.quiz-container{
+    @apply max-w-[500px] rounded box-border relative mt-[100px] px-[60px] py-[30px];
+    background: #ffffff;
+}
+.active-question-no{
+    @apply text-[32px] font-medium text-[#150080];
+}
+.total-question{
+    @apply text-base font-medium text-[#9c9c9c]
+}
+.quiz-container h2{
+    @apply text-xl font-medium m-0;
+}
+.quiz-container ul{
+    @apply -ml-5 mt-5;
+}
+.quiz-container li{
+    @apply no-underline text-[#150080] text-base border cursor-pointer mt-[15px] p-[11px] rounded-2xl border-solid border-[#9c9c9c];
+    list-style: none;
+    background: #ffffff;
+}
+.quiz-container .selected-answer{
+    @apply border text-white border-solid border-[#05fdd4];
+    background: #150080;
+}
+.quiz-container .footer{
+    @apply flex justify-end;
+}
+.quiz-container button{
+    @apply text-lg text-white cursor-pointer mt-[15px] px-[42px] py-2.5 rounded-[9px] border-[none] disabled:text-[#9c9c9c] disabled:cursor-not-allowed;
+    background: linear-gradient(0deg, #0a21ec 0.03%, #05fdd4);
+    outline: none;
+}
+.quiz-container button:disabled{
+    background: #e7e8e9;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,11 @@
+body{
+    @apply text-[#2d264b] flex justify-center h-screen mx-auto my-0 px-[30px] py-0;
+    font-family: monospace;
+    background: linear-gradient(0deg, #0a21ec 0.03%, #05fdd4);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+

@@ -1,0 +1,21 @@
+.result{
+    @apply text-center;
+}
+.result h3{
+    @apply text-2xl tracking-[1.4px] text-center;
+}
+.result p{
+    @apply text-base font-medium;
+}
+.result span{
+    @apply text-[#150080] text-[22px];
+}
+input{
+    @apply border rounded w-full box-border mt-5 px-5 py-2.5 border-solid border-[#9c9c9c];
+}
+table{
+    @apply w-6/12 text-left mt-[50px] mb-5 mx-auto border-collapse;
+}
+table tr{
+    @apply border border-solid;
+}
