@@ -3,6 +3,8 @@ A small ReactJS based multiple-choice quiz webapp based on project 2 for the anx
 
 The app has a timer (progress bar) that visually depicts the amount of time left before the next question is automatically chosen.
 
+For scoring: 5pts are awarded for every correct answer, and 0 are awarded for wrong answers. 
+
 Unfortunately due to time and some other commitments during the work week, I was not able to implement exactly all of the desired functionality (Avatar and Accesory Select and scores influenced by remaining time.).
 
 However I do know how I would have gone about solving each problem, had there been more time.
@@ -24,3 +26,4 @@ The formulae above:
 - I would add the timeBonus to the points awarded for a correct answer.
 If the user answers incorrectly, no bonus points are awarded.
 Adjust the multiplier *10 in the timeBonus calculation as needed to change the impact of the time bonus on the final score.
+
