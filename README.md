@@ -22,3 +22,20 @@ The formulae above:
 If the user answers incorrectly, no bonus points are awarded.
 Adjust the multiplier *10 in the timeBonus calculation as needed to change the impact of the time bonus on the final score.
 
+NB❗Before using, after downloading the files, cd into the my-quiz folder. Then:
+
+✅run the command:
+```
+npm i
+```
+
+to make sure that all dependencies and packages required are up to date.
+
+✅Next, simply run:
+
+```
+npm run dev
+```
+
+to start the app server, and follow link under **Local** by either holding the CTRL key and clicking or just copying and pasting the link in your browser.
+
