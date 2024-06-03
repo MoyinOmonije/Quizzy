@@ -1,5 +1,5 @@
 # Quizzy
-A small ReactJS based multiple-choice quiz webapp based on project 2 for the anxend interview challenge. Makes use of Vue, TypeScript, React and EdgeDB.
+A ReactJS based multiple-choice quiz webapp based on project. Makes use of Vue, TypeScript, React and EdgeDB.
 
 The app has a timer (progress bar) that visually depicts the amount of time left before the next question is automatically chosen.
 
